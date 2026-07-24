@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/section/skill.css">
+    <link rel="icon" href="./images/icon.png">
+</head>
+<body>
+    <div class="skillWrap">
+         <nav class="skillNav">
+            <div class="skillNav_inner">
+                <ul class="skillNav_list">
+                    <li><a href="./index.html">홈</a></li>
+                    <li>></li>
+                    <li><a href="./index3.html" target="_blank">기술</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper page_list">
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F0.png" alt="루미나표지">
+                        <img src="./images/F0-0.png" alt="브랜드슬로건">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F1.png" alt="우주미래웹페이지">
+                        <img src="./images/F1-1.png" alt="목차">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F2.png" alt="모션보드">
+                        <img src="./images/F2-2.png" alt="기획">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F3.png" alt="정보구조">
+                        <img src="./images/F3-3.png" alt="정보구조">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F4.png" alt="와이어메인">
+                        <img src="./images/F4-4.png" alt="고객유입">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F5.png" alt="디자인메인">
+                        <img src="./images/F5-5.png" alt="디자인메인">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F6.png" alt="와이어서브">
+                        <img src="./images/F6-6.png" alt="와이어서브">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="F F0">
+                        <img src="./images/F7.png" alt="시스템텍스트">
+                        <img src="./images/F7-7.png" alt="시스템컬러">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    
+    <script>
+
+      
+          var swiper2 = new Swiper('.mySwiper2', {
+            grabCursor: true,
+            effect: 'creative',
+            speed: 800,
+
+            creativeEffect: {
+                prev: {
+                    shadow: false,
+                    translate: ['-100%', 0, 0],
+                },
+                next: {
+                    shadow: false,
+                    translate: ['100%', 0, 0],
+                },
+            },
+        });
+
+        
+      
+
+    </script>
+</body>
+</html>
